@@ -1,0 +1,88 @@
+.board-table{
+
+    width:700px;
+    height:700px;
+    background-color: #28231D;
+
+}
+.board-cell{
+
+    width: 20px; 
+    height:20px;
+    background-color: #28231D;
+    border-spacing:0px!important;
+    border-collapse: collapse!important;
+    border:none!important;
+
+}
+
+.snake-head{
+
+    width: 20px; 
+    height:20px;
+    background-color :#80471C;
+    border-radius : 100%;
+
+}
+.snake-body{
+
+    width: 20px; 
+    height:20px;
+    background-color :#80471C;
+
+}
+
+.fruit{
+
+    width: 20px; 
+    height:20px;
+    background-color: white;
+    border-radius : 100%;
+    
+}
+
+#game{
+
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly
+
+     
+}
+
+#scoreboard{
+
+    width: 250px;
+    height:350px;
+    background-color: #050100;
+    border-radius:12px;
+    display:flex;
+    align-items:center;
+    flex-direction:column;
+    justify-content: space-between;
+
+}
+
+.lives-container{
+
+    width: 250px;
+    height:175px;
+    display:flex;
+    align-items:center;
+    flex-direction:column;
+    justify-content: space-around
+    
+  
+
+}
+
+.points-container{
+    width: 250px;
+    height:175px;
+    display:flex;
+    align-items:center;
+    flex-direction:column;
+    justify-content: space-around
+    
+ 
+}
